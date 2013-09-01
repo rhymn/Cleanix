@@ -1,0 +1,8 @@
+#-------------------------
+# Added by Surftown
+# To use php5.3 comment this out
+AddType application/x-httpd-php52 php52 php
+#-------------------------
+
+RewriteEngine on
+RewriteRule (.*) - [E=Cache-Control:no-cache] 
